@@ -40,5 +40,7 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+.DS_Store
+
 # Crashlytics generated file
 Assets/StreamingAssets/crashlytics-build.properties
