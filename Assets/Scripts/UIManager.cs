@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+
+    [SerializeField]
+    private bool makeTimeSpeedSliderOptional = true;
+    
     [SerializeField]
     private Slider timeSpeedSlider = null;
 
@@ -64,6 +68,10 @@ public class UIManager : MonoBehaviour
 
     void timeSpeedSliderChanged(float newValue) 
     {
+        if(makeTimeSpeedSliderOptional){
+            return;
+        }
+
         timeSpeedSlider.value = newValue;
         deformationMaterial.SetFloat("_TimeSpeed", timeSpeedSlider.value);
         timeSpeedSliderLabel.text = $"Time Speed: {timeSpeedSlider.value}";
