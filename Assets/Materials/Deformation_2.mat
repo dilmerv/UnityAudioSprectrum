@@ -56,7 +56,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _NoiseScale: 13.363189
+    - _NoiseScale: 13
     - _OcclusionStrength: 1
     - _ReceiveShadows: 1
     - _SmoothnessTextureChannel: 0
@@ -70,7 +70,7 @@ Material:
     - Color_2D7929B1: {r: 0, g: 0.13331246, b: 1, a: 0}
     - _CheckerBoardColorA: {r: 0.8773585, g: 0.38487893, b: 0.38487893, a: 0}
     - _CheckerBoardColorB: {r: 0, g: 0, b: 0, a: 0}
-    - _CheckerBoardFrequency: {r: 10, g: 10, b: 0, a: 0}
+    - _CheckerBoardFrequency: {r: 18.5, g: 14.8, b: 0, a: 0}
     - _Color: {r: 0.6037736, g: 0.35087678, b: 0.3446066, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
