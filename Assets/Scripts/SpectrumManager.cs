@@ -11,6 +11,9 @@ public class SpectrumManager : MonoBehaviourSingleton<SpectrumManager>
     [SerializeField]
     private float[] samples = new float[512];
 
+    [SerializeField]
+    private FFTWindow FFTWindowType = FFTWindow.Blackman;
+
     public float[] Samples
     {
         get 
@@ -19,5 +22,5 @@ public class SpectrumManager : MonoBehaviourSingleton<SpectrumManager>
         }
     }
 
-    void Update() => audioSource.GetSpectrumData(samples, 0, FFTWindow.Blackman);
+    void Update() => audioSource.GetSpectrumData(samples, 0, FFTWindowType);
 }
